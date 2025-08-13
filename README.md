@@ -25,7 +25,7 @@ More reliable than other solutions
 Easy to use (single Python file)  
 
 
-🔗 Upload to GitHub and secure your keyboard in 2 minutes!  
+🔗 Upload to GitHub and secure your keyboard in 2 minutes !  
 
 GhostTyper - Ultimate Python Key Protector (Stealth Mode++)  
 Here is an ultra-discreet version in Python with :  
