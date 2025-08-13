@@ -801,7 +801,7 @@ ___
 (Skip all the manual steps)
 
 Download this ready-to-compile Python file:
-→ 🔗 GhostTyper.py (Pre-verified complete code)
+→ 🔗 GhostTyper.py (https://github.com/madjeek-web/GhostTyper/blob/main/GhostTyper.py) (Pre-verified complete code)
 
 Open a terminal (CMD/PowerShell) and run:
 
