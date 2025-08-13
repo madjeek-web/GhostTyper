@@ -162,9 +162,7 @@ if __name__ == "__main__":
 
 # This code is commented: each section explains its own functionality! 🚀
 
-'''
-
----
+```
 
 ### Why It Goes Under the Radar?
 🔹 No admin rights (works as a normal user)
