@@ -1,0 +1,20 @@
+name: Pylint
+on: [push]
+
+jobs:
+  lint:
+    runs-on: windows-latest  # Change Ubuntu → Windows pour win32api
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"  # Un seul Python pour aller plus vite
+      
+      - name: Install dependencies
+        run: |
+          pip install pylint pywin32 wmi keyboard
+          
+      - name: Run Pylint (with custom rules)
+        run: |
+          pylint --disable=missing-docstring,invalid-name,line-too-long GhostTyper.py
