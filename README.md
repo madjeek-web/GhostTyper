@@ -26,6 +26,7 @@ Easy to use (single Python file)
 
 
 🔗 Upload to GitHub and secure your keyboard in 2 minutes !  
+[Upload GhostTyper.py](https://raw.githubusercontent.com/madjeek-web/GhostTyper/main/GhostTyper.py)  
 
 GhostTyper - Ultimate Python Key Protector (Stealth Mode++)  
 Here is an ultra-discreet version in Python with :  
