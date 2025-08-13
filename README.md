@@ -36,7 +36,7 @@ Here is an ultra-discreet version in Python with:
 
 Full Code (Stealthy & Powerful) :
 
-'''
+```python
 # === LIBRARY IMPORT ===
 import keyboard  # Allows monitoring and simulating keyboard strokes
 import time  # Handles timing (pauses between actions)
