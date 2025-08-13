@@ -667,17 +667,17 @@ if __name__ == "__main__":
     root.mainloop()  # Starts main loop
 ```
 
-# Threading: Allows executing multiple tasks simultaneously without blocking the interface.
+Threading: Allows executing multiple tasks simultaneously without blocking the interface.  
 
-# Daemon Thread: Threads marked as "daemon" stop when the main program stops.
+Daemon Thread: Threads marked as "daemon" stop when the main program stops.  
 
-# tkinter: Standard library for graphical interfaces in Python.
+tkinter: Standard library for graphical interfaces in Python.  
 
-# keyboard: Third-party library to intercept keyboard keys.
+keyboard: Third-party library to intercept keyboard keys.  
 
-# wmi: Allows interacting with Windows system to manage processes.
+wmi: Allows interacting with Windows system to manage processes.  
 
-# Each part of the code is commented to clearly explain its role and functioning.  
+Each part of the code is commented to clearly explain its role and functioning.  
 
 GhostTyper Interface Features
 Sleek, Modern Design:
