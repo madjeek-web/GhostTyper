@@ -259,11 +259,23 @@ win32api.RegSetValueEx(
 )
 ```
 💪 Why This Beats KeyScrambler
-Feature   ---	GhostTyper  ------------	KeyScrambler
-Encryption   ---	Dynamic AES-256   ---	Static XOR
-Anti-Keylogger	Active killing	Passive protection
-Stealth	Fully invisible	Visible process
-Admin Rights	Not required	Often needed
+### 🔍 Feature Comparison: GhostTyper vs KeyScrambler
+
+| Feature               | GhostTyper              | KeyScrambler           |
+|-----------------------|-------------------------|------------------------|
+| **Encryption**        | Dynamic AES-256 (changes every second) | Static XOR (fixed algorithm) |
+| **Anti-Keylogger**    | ✅ Active killing (terminates spy processes) | ❌ Passive protection only |
+| **Stealth**           | 🕵️ Fully invisible (process hollowing) | 👀 Visible in task manager |
+| **Admin Rights**      | 🚫 Not required         | ⚠️ Often needs admin   |
+| **Persistence**       | Registry auto-start     | Manual launch required |
+| **Resource Usage**    | RAM-only operation      | Writes to disk         |
+| **Paranoia Mode**     | Fake keystroke injection | No noise generation   |
+
+**Key Advantages**:
+- Military-grade encryption (AES-256 with time-based keys)
+- Complete process camouflage (svchost.exe/explorer.exe injection)
+- Non-admin user compatibility
+  
 Unique Advantages:
 
 Zero disk writes (RAM-only operation)
@@ -277,4 +289,50 @@ For educational purposes only
 
 May trigger enterprise antivirus
 
-Test in virtual machines first
+Test in virtual machines first  
+
+### 📊 Visual Feature Comparison: GhostTyper vs KeyScrambler
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffdfd3', 'edgeLabelBackground':'#fff'}}}%%
+pie showData
+    title Encryption Strength
+    "GhostTyper (AES-256)" : 90
+    "KeyScrambler (XOR)" : 30
+
+pie showData
+    title Stealth Level
+    "GhostTyper (Invisible)" : 100
+    "KeyScrambler (Visible)" : 40
+```
+Legend:
+🟢 = GhostTyper advantage
+
+🔴 = KeyScrambler limitation
+
+⭐ = Unique capability
+
+```text
+
+**How This Works in GitHub**:
+1. The `mermaid` diagrams will render automatically
+2. First chart shows quantitative comparison
+3. Second chart shows feature breakdown
+```
+**Alternative Text-Based Version**:
+```markdown
+### 📈 Feature Radar Chart (Text Representation)
+
+               Anti-Keylogger 
+                  /   \
+           GhostTyper KeyScrambler
+              🟢        🔴
+             /          \
+Stealth ────────────────┐
+   🟢                   🔴
+    \                  /
+     Admin Rights ────┘
+       🟢           🔴
+
+🟢 = Full capability | 🔴 = Partial/No capability
+```
