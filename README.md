@@ -291,34 +291,7 @@ May trigger enterprise antivirus
 
 Test in virtual machines first  
 
-### 📊 Visual Feature Comparison: GhostTyper vs KeyScrambler
 
-```
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffdfd3', 'edgeLabelBackground':'#fff'}}}%%
-pie showData
-    title Encryption Strength
-    "GhostTyper (AES-256)" : 90
-    "KeyScrambler (XOR)" : 30
-
-pie showData
-    title Stealth Level
-    "GhostTyper (Invisible)" : 100
-    "KeyScrambler (Visible)" : 40
-```
-Legend:
-🟢 = GhostTyper advantage
-
-🔴 = KeyScrambler limitation
-
-⭐ = Unique capability
-
-```text
-
-**How This Works in GitHub**:
-1. The `mermaid` diagrams will render automatically
-2. First chart shows quantitative comparison
-3. Second chart shows feature breakdown
-```
 **Alternative Text-Based Version**:
 ```markdown
 ### 📈 Feature Radar Chart (Text Representation)
