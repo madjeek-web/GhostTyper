@@ -161,4 +161,11 @@ if __name__ == "__main__":
 # Configuration: Modifiable at top of file
 
 # This code is commented: each section explains its own functionality! 🚀
+
 '''
+
+### Why It Goes Under the Radar?
+🔹 No admin rights (works as a normal user)
+🔹 No suspicious files (all in memory)
+🔹 No malware behavior (does not write to disk)
+🔹 Uses legitimate Windows APIs (WMI, win32api)
