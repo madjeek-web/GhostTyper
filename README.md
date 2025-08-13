@@ -292,7 +292,7 @@ May trigger enterprise antivirus
 Test in virtual machines first  
 
 
-**Alternative Text-Based Version**:
+**Alternative Text-Based Version** :
 ```markdown
 ### 📈 Feature Radar Chart (Text Representation)
 
