@@ -293,7 +293,7 @@ Test in virtual machines first
 
 ### 📊 Visual Feature Comparison: GhostTyper vs KeyScrambler
 
-```mermaid
+```
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffdfd3', 'edgeLabelBackground':'#fff'}}}%%
 pie showData
     title Encryption Strength
