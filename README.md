@@ -159,5 +159,5 @@ if __name__ == "__main__":
 # Threads: Allows doing multiple things simultaneously
 # Configuration: Modifiable at top of file
 
-# This code is commented: each section explains its own functionality! 🚀
+# This code is commented: each section explains its own functionality! 
 '''
