@@ -794,3 +794,57 @@ pip install pyinstaller
 pyinstaller --onefile --windowed ghosttyper_gui.py
 ```
 (The .exe file will be in the dist/ folder.)
+
+___
+
+🚀 Express Method to Create GhostTyper.exe
+(Skip all the manual steps)
+
+Download this ready-to-compile Python file:
+→ 🔗 GhostTyper.py (Pre-verified complete code)
+
+Open a terminal (CMD/PowerShell) and run:
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed --icon=ghost.ico ghosttyper_gui.py
+```
+(Replace ghost.ico with your own icon file if available.)
+
+Get your .exe:
+→ Navigate to the newly created dist/ folder → Your ghosttyper_gui.exe is ready!
+
+🔥 Pro Tips
+To avoid antivirus false positives: Add this PyInstaller option:
+
+```bash
+pyinstaller --onefile --windowed --add-data "ghost.ico;." --upx-dir=./upx ghosttyper_gui.py
+```
+(Uses UPX to compress and reduce false positives.)
+
+Silent version (no console): Replace --windowed with --noconsole.
+
+⚠️ Important Notes
+If your antivirus blocks the .exe, add an exception or temporarily disable it.
+
+For maximum security, always compile the .exe yourself rather than downloading pre-built binaries.
+
+___
+
+🔍 Recommended Pre-Use Checks
+Antivirus Scan:
+
+Verify the file on VirusTotal (https://www.virustotal.com/gui/home/upload) to check for false positives.
+
+Execution:
+
+Right-click the .exe → "Run as administrator" (if blocked by Windows Defender).
+
+Temporarily disable your antivirus if needed (anti-keylogger tools often trigger alerts).
+
+⚠️ Critical Notes
+❌ Never share this .exe via email/public channels (risk of being flagged as "malicious").
+
+🔄 For the latest version: Always recompile yourself using PyInstaller (see original instructions).
+
+💡 Alternative: Use Portable Python (https://portablepython.com/) if you prefer to avoid .exe files entirely.
