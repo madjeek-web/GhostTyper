@@ -164,8 +164,8 @@ if __name__ == "__main__":
 
 ```
 
-### Why It Goes Under the Radar?
-🔹 No admin rights (works as a normal user)
-🔹 No suspicious files (all in memory)
-🔹 No malware behavior (does not write to disk)
-🔹 Uses legitimate Windows APIs (WMI, win32api)
+### Why It Goes Under the Radar ?  
+  🔹 No admin rights (works as a normal user)  
+  🔹 No suspicious files (all in memory)  
+  🔹 No malware behavior (does not write to disk)  
+  🔹 Uses legitimate Windows APIs (WMI, win32api)  
