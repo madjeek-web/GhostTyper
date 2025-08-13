@@ -732,7 +732,7 @@ You can absolutely run the GhostTyper program on your PC! Here’s how to procee
 
 1. Prerequisites
 Python 3.x installed on your machine.
-(Download it here if needed.)
+(Download it here : https://www.python.org/downloads/ if needed.)
 
 Pip (Python package manager, usually included with Python).
 
