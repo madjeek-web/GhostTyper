@@ -725,3 +725,72 @@ Click "Start" to enable protection.
 Use the checkboxes to customize your security level.
 
 This interface retains all of GhostTyper's technical capabilities while providing a professional, intuitive user experience.
+
+____
+
+You can absolutely run the GhostTyper program on your PC! Here’s how to proceed step by step :
+
+1. Prerequisites
+Python 3.x installed on your machine.
+(Download it here if needed.)
+
+Pip (Python package manager, usually included with Python).
+
+2. Installing Dependencies
+Open a terminal (CMD on Windows, Terminal on macOS/Linux) and run:
+
+```bash
+pip install keyboard wmi pywin32 pillow
+```
+(These libraries handle keyboard input, Windows interaction, etc.)
+
+3. Creating the Python File
+Copy the full GhostTyper code (the one you shared).
+
+Paste it into a text editor (VS Code, Notepad++, Sublime Text, etc.).
+
+Save the file as ghosttyper_gui.py (or another name with the .py extension).
+
+4. Running the Program
+In the terminal, navigate to the folder containing the file (using cd), then launch:
+
+```bash
+python ghosttyper_gui.py
+```
+(If python doesn’t work, try python3 on macOS/Linux.)
+
+5. Using the Interface
+▶ Start: Activates protection (keystroke encryption + anti-keylogger).
+
+⏸ Pause: Pauses encryption.
+
+Paranoia Mode: Sends random keystrokes to confuse keyloggers.
+
+Anti-Keylogger: Detects and closes suspicious processes.
+
+Close: Exits the application.
+
+6. Technical Features
+Real-time encryption: Keys are altered using an algorithm based on the current time.
+
+Keylogger detection: Scans Windows processes (e.g., "ahk" for AutoHotKey).
+
+Random fake keystrokes (Paranoia Mode) to mislead loggers.
+
+Common Issues & Solutions
+ImportError: Ensure all dependencies are installed (pip list).
+
+Blocked by antivirus: Tools like keyboard or pywin32 may trigger warnings. Add an exception if needed.
+
+Permissions: Run the terminal as administrator (Windows) if GhostTyper can’t close processes.
+
+Important Note
+This program is designed for protection and education. Test it in a controlled environment before intensive use.
+
+To create a compiled version (.exe for Windows), use PyInstaller:
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed ghosttyper_gui.py
+```
+(The .exe file will be in the dist/ folder.)
